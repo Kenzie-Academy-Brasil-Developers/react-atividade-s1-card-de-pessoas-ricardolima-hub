@@ -1,0 +1,19 @@
+.userCard {
+    display: flex;
+    justify-content: center;
+    background-color: royalblue;
+    width: 200px;
+    height: 200px;
+    margin: 1rem;
+    border-radius: 9px;
+    border: 1px solid whitesmoke;
+}
+
+.userCard p {
+    font-weight: bold;
+}
+
+.userCard:hover {
+    cursor:pointer;
+    background-color: teal;
+}
